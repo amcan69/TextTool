@@ -10,6 +10,8 @@ def process_line(line):
 
     if cmd == "uppercase":
         return text.upper()
+    if cmd == "lowercase":
+        return text.lower()
 
     return "Unknown command " + cmd
 
